@@ -5,8 +5,12 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
+    <div className="overall-container">
       <NavbarComponent />
+
+      <style jsx>{`
+        
+      `}</style>
     </div>
   )
 }
